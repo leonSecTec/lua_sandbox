@@ -65,7 +65,7 @@ else()
     externalproject_add(
         ${LUA_PROJECT}
         GIT_REPOSITORY https://github.com/leonSecTec/lua.git
-        GIT_TAG 8b96f14f0be032030cdd86d56d93a6d362ca142e
+        GIT_TAG 28d568c7a2058bb311b90cff32be9636ee41678d
         CMAKE_ARGS ${SANDBOX_CMAKE_ARGS}
         INSTALL_ARGS ${INST_ARGS}
     )
